@@ -4,7 +4,8 @@ module.exports = function(){
     return {
         jenkins:{
             jobs:base + 'api/json/',
-            builds:base + 'queue/api/json'
+            builds:base + 'queue/api/json',
+            stats:base  + 'overallLoad/api/json'
         }
     }
 }
